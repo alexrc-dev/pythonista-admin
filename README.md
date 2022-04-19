@@ -26,13 +26,13 @@ npm install
 
 ```text
 NEXT_PUBLIC_CLIENT_PATH=https://your-admin-domain.com
-API_PATH=https://your-api-domain.com
+NEXT_PUBLIC_API_PATH=https://your-api-domain.com/api/v1
 ```
 * Configurar los secretos de entorno creando el archivo ```.env.local``` con el comando ```touch .env.local``` y agregando el siguiente formato:
 
 ```text
-CLIENT_ID=<your-client-id>
-AUTH_HEADER=<clave cifrada en base64 con el formato client_id:client_secret>
+NEXT_PUBLIC_CLIENT_ID=<your-client-id>
+NEXT_PUBLIC_AUTH_HEADER=<clave cifrada en base64 con el formato client_id:client_secret>
 ```
 
 * Especificar el entorno para producción con:
